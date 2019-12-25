@@ -5,4 +5,6 @@ public class A {
 	private int y;
 	private String s;
 	private String n;
+	private String k;
+	private String i;
 }
