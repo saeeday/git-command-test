@@ -13,4 +13,8 @@ public class A {
 	{
 		return x;
 	}
+	public int getY()
+	{
+		return y;
+	}
 }
