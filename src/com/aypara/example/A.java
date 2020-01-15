@@ -21,4 +21,7 @@ public class A {
 	{
 		return name;
 	}
+	public String toString() {
+		return x+y+name;
+	}
 }
