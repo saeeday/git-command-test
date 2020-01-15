@@ -3,9 +3,9 @@ package com.aypara.example;
 public class A {
 	private int x;
 	private int y;
-	private String mame;
+	private String name;
 	public A(int x,int y ,String n) {
-		this.mame=n;
+		this.name=n;
 		this.x=x;
 		this.y=y;
 	}
@@ -16,5 +16,9 @@ public class A {
 	public int getY()
 	{
 		return y;
+	}
+	public String getName()
+	{
+		return name;
 	}
 }
